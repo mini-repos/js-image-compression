@@ -6,6 +6,7 @@ This script is designed to compress and convert JPEG images to the WebP format u
 
 - Node.js installed on your machine
 - npm (Node Package Manager) installed
+- ts-node (if you want to directly run the `.ts` file)
 
 ## Installation
 
