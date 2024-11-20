@@ -29,12 +29,12 @@ This script is designed to compress and convert JPEG images to the WebP format u
 
 ## Usage
 
-Replace 'your_directory_path' in `index.ts` with the actual path to the directory containing your `.jpeg` files.
+Replace 'your_directory_path' in `index.ts` with the actual path to the directory containing your `.jpeg` files. And make sure that you have `ts-node` installed globally.
 
 Run the script:
 
   ```bash
-  npm run compress-images
+  ts-node index.ts
   ```
 This will compress each JPEG image, convert it to WebP, and replace the original file in the specified directory.
 
